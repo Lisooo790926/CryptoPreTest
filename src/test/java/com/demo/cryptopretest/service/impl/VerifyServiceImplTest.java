@@ -1,12 +1,12 @@
-package com.demo.cryptopretest.service;
+package com.demo.cryptopretest.service.impl;
 
 import com.demo.cryptopretest.data.ApiResult;
-import com.demo.cryptopretest.service.impl.VerifyServiceImpl;
+import com.demo.cryptopretest.service.RestfulService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.util.CollectionUtils;
@@ -19,7 +19,8 @@ import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-public class TestVerifyServiceImpl {
+@SpringBootTest
+public class VerifyServiceImplTest {
 
     private ApiResult tradeData;
     private ApiResult candleStickDatas;
