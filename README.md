@@ -1,4 +1,4 @@
-## Crypto.com Assessment
+## Crypto.com Assignment
 Given [Candle Stick API](https://exchange-docs.crypto.com/#public-get-candlestick) , please design and
 develop a **Java Application with JUnit5 unit test cases** to verify the consistency of the output of [Trade API](https://exchange-docs.crypto.com/#public-get-trades).
 
