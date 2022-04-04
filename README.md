@@ -16,7 +16,7 @@ Trades API size always be 200 and all are within 1 min, it's hard to test behavi
 I created one web application(by Spring Boot) to have API connections and verification
 1. API Connections:\
    Get real data from crypto.com by above two [Candle Stick API](https://exchange-docs.crypto.com/#public-get-candlestick) and [Trade API](https://exchange-docs.crypto.com/#public-get-trades)
-2. Verification:\
+2. Verification:
    - Since we have to compare each time slot of candleStick, so we should loop each candleSticks.
      First, get begin and end time of this time slot. 
      Extract each trade time to compare the current time slot, if this trade is in this slot, we update to our tradeStick*.
