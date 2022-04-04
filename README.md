@@ -22,7 +22,7 @@ I created one web application(by Spring Boot) to have API connections and verifi
      Extract each trade time to compare the current time slot, if this trade is in this slot, we update to our tradeStick*.
      <img src="https://user-images.githubusercontent.com/48560984/161411744-a105ca76-09bf-497f-ac69-93a6e61f3eee.png" width=600/>
    - Once there is no trade or trade time is before previous time, then end the loop. 
-     Store verified result into resultMap**.
+     Store verified result into resultMap**.\
      <img src="https://user-images.githubusercontent.com/48560984/161411797-903543b0-b590-4ce5-844c-aa4ab528f9e3.png" width=600/>
      
    - Repeat above steps until there is no left candleSticks or trades, then we get below result.
